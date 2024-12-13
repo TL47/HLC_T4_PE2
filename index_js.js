@@ -1,10 +1,10 @@
 function ocultarChat() {
-    document.getElementById('textarea').classList.add('oculto');
+    document.getElementById('chat').classList.add('oculto');
     const ocultar = document.getElementById('textarea');
 }
 
 function mostrarChat() {
-    document.getElementById('textarea').classList.remove('oculto');
+    document.getElementById('chat').classList.remove('oculto');
 }
 
 function enviar() {
