@@ -56,7 +56,7 @@ span {
     margin-left: 20%;
     margin-bottom: 5%;
     margin-right: 10%;
-    box-shadow:  2px 2px 4px 4px rgba(0, 0, 0, 0.265);
+    box-shadow: 2px 3px 10px grey;
     background-color: white;
     overflow-y: auto; height: 100%;
 }
