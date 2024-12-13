@@ -1,0 +1,79 @@
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    background-color: #85CEF0;
+    min-height: 100vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.mostrar {
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 25%;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.mostrar:hover {
+    background-color: #E2E5E7;
+}
+
+.ocultar {
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 25%;
+    margin: 5%;
+    cursor: pointer;
+}
+
+.ocultar:hover {
+    background-color: #E2E5E7;
+}
+
+span {
+    background-color: #E2E5E7;
+}
+
+.textarea {
+    justify-content: center;
+    text-align: center;
+    height: 0;
+    margin-top: 35%;
+    padding-left: 20%;
+}
+
+.mensaje {
+    margin: 5%;
+}
+
+.enviar {
+    background-color: #F9DC6A;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+.texto {
+    display: flex;
+    background-color: #85CEF0;
+}
+
+.oculto {
+    display: none;
+}
