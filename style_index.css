@@ -50,28 +50,39 @@ span {
     background-color: #E2E5E7;
 }
 
-.textarea {
+.chat {
     justify-content: center;
-    text-align: center;
-    height: 0;
-    margin-top: 35%;
-    padding-left: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    box-shadow:  2px 2px 4px 4px rgba(0, 0, 0, 0.265);
+    background-color: white;
+    overflow-y: auto; height: 100%;
 }
 
-.mensaje {
-    margin: 5%;
+.textarea {
+    margin-top: 80%;
+}
+
+textarea {
+    width: 400px;
 }
 
 .enviar {
     background-color: #F9DC6A;
+    padding: 10px;
     cursor: pointer;
     border: 0;
     border-radius: 5px;
+    margin-bottom: 90;
 }
 
 .texto {
-    display: flex;
-    background-color: #85CEF0;
+    background-color: #EAFFD2;
+    justify-content: left;
+    padding: 5% 15%;
+    align-self: flex-start
 }
 
 .oculto {

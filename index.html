@@ -15,11 +15,15 @@
             <button class="mostrar" id="mostrar" onclick="mostrarChat()" >Mostar chat</button>
             <button class="ocultar" id="ocultar" onclick="ocultarChat()">Ocultar chat</button>
         </div>
-    <div id="textarea" class="textarea">
-        <textarea class="mensaje" name="mensaje" rows="5" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
-        <button onclick="enviar()" class="enviar" id="enviar">Enviar</button>
-    </div>
-    <div id="texto"></div>
+        <div class="chat" id="chat">
+            <div class="usuario">
+                <div id="texto"></div>
+            </div>
+            <div id="textarea" class="textarea">
+                <textarea class="mensaje" name="mensaje" rows="2" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <button onclick="enviar()" class="enviar" id="enviar">Enviar</button>
+            </div>
+        </div>
     </div>
 
     <script src="index_js.js"></script>
